@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+ <style>
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+padding-left: 30%;
+padding-right: 30%;
+}
+label{
+    font-size: 18px;
+    display: flex;
+padding-bottom: 10px;
+
+}
+input,textarea,select{
+    display: block;
+    width: 100%;
+padding-bottom: 20px;
+}
+#button-area{
+float: left;
+
+
+}
+form{
+background-color: #228b22;
+background: color opacity 20px;
+ 
+
+
+}
+
+ </style>
+</head>
+
+<body>
+    <h1 id="title">Let's talk about Muay Thai</h1>
+
+    <p id="description">This is a survey where you can tell us about how Muay Thai is beneficial.</p>
+
+    <form id="survey-form">
+    <label id="name-label">Name</label> 
+    <input type="text-label" name="name" id="name" required placeholder="Input name"><br>
+    <label id="email-label">Email</label> 
+    <input type="email" name="name" id="email" required placeholder="Email"><br>
+    <label id="number-label">Number</label> 
+    <input type="number" name="name" id="number" min="0" max="10" required placeholder="Number"><br>
+
+    <label id="Muay Thai Techniques">Muay Thai Techniques</label>
+    <select id="dropdown"name="Techniques" >
+        <option value="Spinning elbow">Spinning elbow</option>
+        <option value="Flying knee">Flying knee</option>
+        <option value="Roundhouse kick">Roundhouse kick</option>
+        <option value="Jab">Jab</option>
+        <option value="Uppercut">Uppercut</option>
+        <option value="Headshot">Headshot</option>
+        <option value="Hook Kick">Hook Kick</option>
+        <option value="Flying kicks">Flying kicks</option>
+      </select>
+<br>
+      <label id="Additional Comments">Additional Comments</label>
+      <textarea  placeholder="Additional Comments"></textarea><br>
+    
+      <div id="button-area">
+        <label id="Gender">Gender</label> 
+      <input type="radio"  name="Gender" value="Male">Male <br>
+      <input type="radio"  name="Gender" value="Female">Female<br>
+      <input type="radio"  name="Gender" value="Other">Other
+    </div>
+      <div id="button-area">
+       <label id="Mode of transport">Mode of transport</label>
+      <input type="checkbox"  name="vehicle2" value="Car">I have a Car<br>
+      <input type="checkbox"  name="vehicle3" value="Van">I have a Van<br>
+      <input type="checkbox"  name="vehicle1" value="Bike">I have a Bike
+      
+      </div>
+      
+      <input type="submit" id="submit">
+
+
+
+
+    </form>
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+</body>
+
+</html>
